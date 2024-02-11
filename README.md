@@ -30,3 +30,10 @@
 3. Отправьте изменения на GitHub: `git push origin <branch>`.
 
 Happy coding!
+
+```mermaid
+graph LR;
+  working_directory -- "git add" --> staging_area;
+  staging_area      -- "git commit" --> local_repository;
+  local_repository  -- "commit hash" --> HEAD;
+```
